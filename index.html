@@ -14,7 +14,37 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> -->
   </head>
   <body class="main-content">
-    <header class="section sec1 header active" id="home"></header>
+    <header class="section sec1 header active" id="home">
+<div class="header-content">
+  
+      <div class="left">
+        <div class="h-shape"></div>
+
+        <div class="image mge">
+     
+        </div>
+      </div>
+
+      <div class="right">
+        <h1 class="name">Hi, i am <span>Emekalam Chibuzor Chinwedndu</span></h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae
+          repudiandae consequatur nostrum laborum ea magnam veniam rem pariatur
+          molestias sint!
+        </p>
+        <div class="btn-con">
+          <a href="" class="main-btn">
+          
+          <span class="btn-text"> Download Cv </span>
+          <span class="btn-icon">
+            <i class="fa-solid fa-cloud-arrow-down"></i>
+          </span>
+        </a>
+        </div>
+      </div>
+</div>
+
+    </header>
 
     <main>
       <section class="section sec2 about" id="about"></section>
@@ -24,33 +54,40 @@
     </main>
 
     <div class="controlls">
-      <!-- Each data-id will target a section that is respnsible for a page. the targeted section will be toggled to vissible-->
+      <!-- Each data-id will target a section that is respnsible for a page. 
+        the targeted section will be stored and is linked to a coresponding section.
+         this is useful to  toggled the section vissible-->
 
       <div class="control con-1 active-btn" data-id="home">
-        <!-- the data-id here will target home page id that is at the header -->
+        <!-- the data-id here will target home page id that is at the header and store the home id attribute -->
         <i class="fa-solid fa-house"></i>
+        <div class="tooltip-text">Home</div>
       </div>
 
       <div class="control con-2" data-id="about">
-        <!-- the data-id here will target the about page -->
+        <!-- the data-id here will target the about page store its id attribute -->
         <i class="fa-solid fa-user"></i>
+        <div class="tooltip-text">About</div>
       </div>
 
       <div class="control con-3" data-id="portfolio">
-        <!-- the data-id here will target the portfolio page -->
+        <!-- the data-id here will target the portfolio page and store its id attribute  -->
         <i class="fa-brands fa-product-hunt"></i>
+        <div class="tooltip-text">Portfolio</div>
       </div>
 
       <div class="control con-4" data-id="blog">
-        <!-- the data-id here will target the blog page -->
+        <!-- the data-id here will target the blog page and store its id attribute -->
         <i class="fa-solid fa-blog"></i>
+        <div class="tooltip-text">Blog</div>
       </div>
 
       <div class="control con-5" data-id="contact">
-        <!-- the data-id here will target the contact page -->
+        <!-- the data-id here will target the contact page and store its id attribute  -->
         <i class="fa-solid fa-address-book"></i>
+        <div class="tooltip-text">Contact</div>
       </div>
-    </div> 
+    </div>
 
     <script src="index.js"></script>
   </body>
