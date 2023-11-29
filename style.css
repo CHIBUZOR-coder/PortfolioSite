@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-primary: #191d2b;
+  --color--secondary: #27ae60;
+  --color--white: white;
+  --color--black: black;
+  --color--grey0: #f8f8f8;
+  --color--grey-1: #dbe1e8;
+  --color--grey-2: #b2becd;
+  --color--grey-3: #6c7983;
+  --color--grey-4: #454e56;
+  --color--grey-5: #2a2e35;
+  --color--grey-6: #12181b;
+  --br-sm-2: 14px;
+  --box--shadow-1: -4px 4px 10px rgba(12, 11, 11, 5);
+  --box--shadow-2: 0 3px 15px rgba(0, 0, 0.3);
+}
+
+body {
+  background-color: var(--color-primary);
+  font-size: 1.1rem;
+  color: var(--color--white);
+  transition: all 0.4s ease-in-out;
+  font-family: "Poppins", sans-serif;
+  overflow: scroll;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+}
+
+header {
+  position: absolute;
+  color: var(--color--white);
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+section {
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  padding: 3rem 18rem;
+  left: 0;
+  top: 0;
+  background-color: #27ae60;
+}
+
+.section {
+  transform: translateY(-100%) scale(1);
+  background-color: var(--color-primary);
+}
+
+.sec1 {
+  display: none;
+  transform: translateY(0) scale(1);
+  background-color: rgb(205, 90, 100);
+  animation: animaMode 1s ease-in-out;
+}
+
+.sec2 {
+  display: none;
+  transform: translateY(0) scale(1);
+  background-color: slateblue;
+}
+
+.sec3 {
+  display: none;
+
+  transform: translateY(0) scale(1);
+  background-color: rgb(182, 233, 107);
+}
+
+.sec4 {
+  display: none;
+  transform: translateY(0) scale(1);
+  background-color: grey;
+}
+
+.sec5 {
+  display: none;
+  transform: translateY(0) scale(1);
+  background-color: rgb(18, 18, 19);
+}
+
+.controlls {
+  position: fixed;
+  z-index: 10;
+  top: 50%;
+  right: 3%;
+  display: flex;
+  align-items: center;
+
+  transform: translateY(-40%);
+  flex-direction: column;
+
+  .active-btn {
+    background-color: var(--color--secondary) !important;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .control {
+    cursor: pointer;
+    background-color: var(--color--grey-4);
+    padding: 1rem;
+    width: 5px;
+    height: 5px;
+    margin: 0.5rem auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--box--shadow-2);
+
+    i {
+      pointer-events: none;
+      color: white;
+    }
+  }
+}
+
+@keyframes animaMode {
+    0% {
+      transform: translateY(-100%) scaleY(0);
+    }
+    100% {
+      transform: translateY(0) scaleY(1);
+    }
+  }
+
+.active {
+  
+  
+  display: block;
+  animation: animaMode .9s ease-in-out;
+
+}
