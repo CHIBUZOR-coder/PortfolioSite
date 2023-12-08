@@ -4,15 +4,41 @@ console.log(secControll);
 const secbtn = document.querySelectorAll(".control");
 console.log(secbtn);
 const allSections = document.querySelector(".main-content");
+const con5 = document.querySelector(".fa-address-book");
+console.log(con5);
+const body = document.querySelector(".main-content");
+
+// con5.addEventListener("click", function (e) {
+//   body.classList.add("back");
+// });
+for (let i = 0; i < secbtn.length; i++) {
+  secbtn[i].addEventListener("click", function (e) {
+    console.log("Button clicked:", e.target);
+    if (e.target === con5) {
+      console.log("Adding 'back' class to body");
+      body.classList.add("back");
+      console.log("done");
+    } else {
+      console.log("Removing 'back' class from body");
+      body.classList.remove("back");
+      console.log("Undone");
+    }
+  });
+}
+
 
 function sectionToggle() {
-  
   //for button clicks
   for (let i = 0; i < secbtn.length; i++) {
-    secbtn[i].addEventListener("click", function () {
+    secbtn[i].addEventListener("click", function (e) {
       let cbtns = document.querySelectorAll(".active-btn");
       cbtns.forEach((btn) => btn.classList.remove("active-btn"));
       this.classList.add("active-btn");
+
+      // if(e.target = secbtn[5])
+      //  body.classList.add("back");
+      // else
+      //   body.classList.add("back");
     });
   }
 
