@@ -7,6 +7,64 @@ const allSections = document.querySelector(".main-content");
 const con5 = document.querySelector(".fa-address-book");
 console.log(con5);
 const body = document.querySelector(".main-content");
+const theme = document.querySelector(".fa-themeisle");
+let state = "inactive";
+const headertext = document.querySelector(".right");
+const abouttext = document.querySelector(".left-about");
+const smalltext = document.querySelectorAll(".small-text");
+const tophead = document.querySelector(".h2");
+const topTim = document.querySelectorAll(".thim");
+const bg_text = document.querySelectorAll(".bg-text");
+const blog = document.querySelectorAll(".blog");
+console.log(smalltext);
+
+
+// Theme setting
+theme.addEventListener('click', function(e){
+if(state === "inactive"){
+  body.style.backgroundColor = "white";
+   headertext.style.color = "#101320";
+   abouttext.style.color = "#101320";
+
+  for (let i = 0; i < smalltext.length; i++) {
+    smalltext[i].style.color = "#101320";
+  }
+  for (let i = 0; i < topTim.length; i++) {
+    topTim[i].style.color = " #27ae60";
+  }
+   for (let i = 0; i < bg_text.length; i++) {
+     bg_text[i].style.color = " rgba(13, 13, 15, 0.2)";
+   }
+   
+  for (let i = 0; i < blog.length; i++) {
+    blog[i].style.border = " 2px solid #101320";
+  }
+    state = "active";
+}
+else if(state === "active")
+{
+ body.style.backgroundColor = "#101320";
+  headertext.style.color = "white";
+  for (let i = 0; i < smalltext.length; i++) {
+    smalltext[i].style.color = "#ADBECD";
+  }
+   for (let i = 0; i < topTim.length; i++) {
+     topTim[i].style.color = "white";
+   }
+   
+   for (let i = 0; i < bg_text.length; i++) {
+     bg_text[i].style.color = "#2A2E35";
+   }
+
+   
+  for (let i = 0; i < blog.length; i++) {
+    blog[i].style.border = " 2px solid #454e56";
+  }
+ state = "inactive";
+}
+});
+
+
 
 // con5.addEventListener("click", function (e) {
 //   body.classList.add("back");
@@ -25,7 +83,6 @@ for (let i = 0; i < secbtn.length; i++) {
     }
   });
 }
-
 
 function sectionToggle() {
   //for button clicks
