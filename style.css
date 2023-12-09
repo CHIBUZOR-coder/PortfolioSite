@@ -445,7 +445,6 @@ section {
 
   .btn-con {
     width: 150px;
-    
   }
   .mge {
     margin-left: -2px;
@@ -509,7 +508,6 @@ section {
 
   .btn-con {
     width: 140px;
-    
   }
   .mge {
     margin-left: 2px;
@@ -639,7 +637,7 @@ section {
     height: 250px;
     width: 180px;
   }
-  .btn-con{
+  .btn-con {
     width: 140px;
   }
 }
@@ -658,8 +656,6 @@ section {
     width: 80%;
     font-size: 1rem;
   }
-
-  
 }
 
 /* styling About section */
@@ -980,7 +976,7 @@ section {
       .abtn {
         position: relative;
         margin: 0 auto 0 auto;
-      font-size: 1rem;
+        font-size: 1rem;
       }
 
       .mation {
@@ -1666,7 +1662,7 @@ section {
         position: absolute;
         display: flex;
         flex-direction: row;
-        gap:10px;
+        gap: 10px;
         top: 3rem;
         transform: translateY(-150%);
         visibility: hidden;
@@ -1722,29 +1718,25 @@ section {
     background: url(images/drum.jpg) no-repeat center center/ cover;
   }
 }
-.below{
+.below {
   font-size: 0.7rem;
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
-.sp{
+.sp {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
-   font-size: 0.8rem;
-   gap: 2px;
- 
-   
+  font-size: 0.8rem;
+  gap: 2px;
 }
-.arr{
-    position: relative;
-    left: 50%;
-  
-   }
-
+.arr {
+  position: relative;
+  left: 50%;
+}
 
 /* Portfolio Media Query */
 @media (min-width: 100px) and (max-width: 199.9px) {
@@ -2305,20 +2297,19 @@ section {
   }
 }
 
-@media (min-width: 1169px)  {
-
-        .source {
-          position: absolute;
-          display: flex;
-          top: 2rem;
-          transform: translateY(-150%);
-          visibility: hidden;
-          gap: 3rem;
-          color: var(--color--grey-1);
-          font-weight: 800;
-          font-size: 1.5rem;
-        }
-} 
+@media (min-width: 1169px) {
+  .source {
+    position: absolute;
+    display: flex;
+    top: 2rem;
+    transform: translateY(-150%);
+    visibility: hidden;
+    gap: 3rem;
+    color: var(--color--grey-1);
+    font-weight: 800;
+    font-size: 1.5rem;
+  }
+}
 
 @media (min-width: 1169px) and (max-width: 1500.9px) {
   .sec3 {
@@ -2566,70 +2557,50 @@ section {
   }
 }
 
-
 /* Blog Media query */
 
 @media (min-width: 200px) and (max-width: 324.9px) {
-.blog-container{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 100%;
-gap: 1rem;
-margin-bottom: 100px;
+  .blog-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    margin-bottom: 100px;
+  }
 }
-  
-}
-
 
 @media (min-width: 325px) and (max-width: 379.9px) {
-.blog-container{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 100%;
-gap: 1rem;
-margin-bottom: 100px;
+  .blog-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    margin-bottom: 100px;
+  }
 }
-  
-}
-
 
 @media (min-width: 380px) and (max-width: 429.9px) {
-.blog-container{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 100%;
-gap: 1rem;
-margin-bottom: 90px;
+  .blog-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    margin-bottom: 90px;
+  }
 }
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Contact Styling */
 .contactme {
   position: relative;
   width: 50%;
   margin-left: 16%;
-    text-align: center;
+  text-align: center;
   margin: 0 auto 0 auto;
 
   #h2 {
@@ -2650,7 +2621,6 @@ margin-bottom: 90px;
       transform: translate(-50%, -50%);
       z-index: -1;
       font-weight: 800;
-    
     }
   }
 }
@@ -2762,16 +2732,15 @@ textarea {
   cursor: pointer;
 }
 
-.inn{
-  background-color:rgba(135, 132, 132, 0.5);
-
+.inn {
+  background-color: rgba(135, 132, 132, 0.5);
 }
 .contact-btn {
-          position: absolute;
-        
-          z-index: 12;
-          background-color:rgba(0, 0, 0, 0.5) ;
-        }
+  position: absolute;
+
+  z-index: 12;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 .submit-button:hover {
   background-color: #45a049;
@@ -2830,7 +2799,6 @@ textarea {
         position: relative;
         width: 100%;
         margin-bottom: 20px;
-        
       }
 
       .others {
@@ -2881,7 +2849,7 @@ textarea {
   }
 }
 
-@media  (max-width: 163px) {
+@media (max-width: 163px) {
   .sec5 {
     position: relative;
   }
@@ -2890,15 +2858,12 @@ textarea {
     position: relative;
     width: 90%;
     font-size: 0.8rem;
-   
   }
-  .tact{
-   font-size: 0.9rem;
- 
-   position: relative;
-   width: 100%;
+  .tact {
+    font-size: 0.9rem;
 
-  
+    position: relative;
+    width: 100%;
   }
 
   .secchild {
@@ -2944,7 +2909,6 @@ textarea {
         position: relative;
         width: 100%;
         margin-bottom: 20px;
-        
       }
 
       .others {
@@ -2974,7 +2938,7 @@ textarea {
         }
         .fonts {
           background-color: var(--color--grey-4);
-          padding:10px;
+          padding: 10px;
           width: 2px;
           position: relative;
           height: 2px;
@@ -2996,8 +2960,6 @@ textarea {
     }
   }
 }
-
-
 
 @media (min-width: 362px) and (max-width: 395.9px) {
   .sec5 {
@@ -3101,30 +3063,27 @@ textarea {
           display: flex;
           gap: 0.3rem;
           flex-wrap: wrap;
+          font-weight: 700;
         }
       }
     }
   }
 }
 
-
 @media (min-width: 396px) and (max-width: 429.9px) {
-
-
   .sec5 {
     min-height: 120vh;
     position: relative;
     width: 100%;
   }
-body{
-  /* min-height: 130vh; */
-  position: relative;
-  
-      .controlls{
-    
-       bottom: -65px;
-      }
-}
+  body {
+    /* min-height: 130vh; */
+    position: relative;
+
+    .controlls {
+      bottom: -65px;
+    }
+  }
   .contactme {
     position: relative;
     width: 80%;
@@ -3159,8 +3118,6 @@ body{
       display: flex;
       flex-direction: column-reverse;
       margin-bottom: 10px;
-    
-     
 
       .form-con {
         position: relative;
@@ -3185,7 +3142,7 @@ body{
         flex-wrap: wrap;
         gap: 2px;
         margin-top: -80px;
-    
+
         .conInfo {
           position: relative;
           display: flex;
@@ -3195,7 +3152,7 @@ body{
           margin-top: 2rem;
         }
 
-/* 
+        /* 
       .controlls{background-color: blue;
        bottom: -65px;
       } */
@@ -3229,30 +3186,27 @@ body{
           display: flex;
           gap: 0.3rem;
           flex-wrap: wrap;
+          font-weight: 700;
         }
       }
     }
   }
 }
 
-
 @media (min-width: 430px) and (max-width: 499.9px) {
-
-
   .sec5 {
     min-height: 120vh;
     position: relative;
     width: 100%;
   }
-body{
-  /* min-height: 130vh; */
-  position: relative;
-  
-      .controlls{
-    
-       bottom: -65px;
-      }
-}
+  body {
+    /* min-height: 130vh; */
+    position: relative;
+
+    .controlls {
+      bottom: -65px;
+    }
+  }
   .contactme {
     position: relative;
     width: 80%;
@@ -3287,8 +3241,6 @@ body{
       display: flex;
       flex-direction: column-reverse;
       margin-bottom: 10px;
-    
-     
 
       .form-con {
         position: relative;
@@ -3313,7 +3265,7 @@ body{
         flex-wrap: wrap;
         gap: 2px;
         margin-top: -80px;
-    
+
         .conInfo {
           position: relative;
           display: flex;
@@ -3322,8 +3274,6 @@ body{
           gap: 0.2rem;
           margin-top: 2rem;
         }
-
-
 
         .contact-btn {
           position: absolute;
@@ -3361,22 +3311,19 @@ body{
 }
 
 @media (min-width: 500px) and (max-width: 699.9px) {
-
-
   .sec5 {
     min-height: 120vh;
     position: relative;
     width: 100%;
   }
-body{
-  /* min-height: 130vh; */
-  position: relative;
-  
-      .controlls{
-    
-       bottom: -65px;
-      }
-}
+  body {
+    /* min-height: 130vh; */
+    position: relative;
+
+    .controlls {
+      bottom: -65px;
+    }
+  }
   .contactme {
     position: relative;
     width: 80%;
@@ -3411,8 +3358,6 @@ body{
       display: flex;
       flex-direction: column-reverse;
       margin-bottom: 10px;
-    
-     
 
       .form-con {
         position: relative;
@@ -3437,7 +3382,7 @@ body{
         flex-wrap: wrap;
         gap: 2px;
         margin-top: -80px;
-    
+
         .conInfo {
           position: relative;
           display: flex;
@@ -3446,8 +3391,6 @@ body{
           gap: 0.2rem;
           margin-top: 2rem;
         }
-
-
 
         .contact-btn {
           position: absolute;
@@ -3484,20 +3427,12 @@ body{
   }
 }
 
-
 @media (min-width: 700px) {
-.contact-form{
- 
-  left: 8%;
+  .contact-form {
+    left: 8%;
+  }
+
+  .tact {
+    left: 8%;
+  }
 }
-
-.tact{
-  left:8% ;
-}
-}
-
-
-
-
-
-
