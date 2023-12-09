@@ -639,6 +639,9 @@ section {
     height: 250px;
     width: 180px;
   }
+  .btn-con{
+    width: 140px;
+  }
 }
 
 @media (min-width: 801px) {
@@ -655,6 +658,8 @@ section {
     width: 80%;
     font-size: 1rem;
   }
+
+  
 }
 
 /* styling About section */
@@ -1660,10 +1665,11 @@ section {
       .source {
         position: absolute;
         display: flex;
+        flex-direction: row;
+        gap:10px;
         top: 3rem;
         transform: translateY(-150%);
         visibility: hidden;
-        gap: 0.5rem;
         color: var(--color--grey-1);
         font-weight: 800;
         font-size: 1.5rem;
@@ -1716,8 +1722,31 @@ section {
     background: url(images/drum.jpg) no-repeat center center/ cover;
   }
 }
-/* Portfolio Media Query */
+.below{
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
+.sp{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   font-size: 0.8rem;
+   gap: 2px;
+ 
+   
+}
+.arr{
+    position: relative;
+    left: 50%;
+  
+   }
+
+
+/* Portfolio Media Query */
 @media (min-width: 100px) and (max-width: 199.9px) {
   #stobburn {
     font-size: 0.7rem;
@@ -1886,7 +1915,7 @@ section {
           top: 3rem;
           transform: translateY(-150%);
           visibility: hidden;
-          gap: 0.5rem;
+          gap: 2.5rem;
           color: var(--color--grey-1);
           font-weight: 800;
           font-size: 1.5rem;
@@ -1998,7 +2027,7 @@ section {
           top: 3rem;
           transform: translateY(-150%);
           visibility: hidden;
-          gap: 0.5rem;
+          gap: 2.8rem;
           color: var(--color--grey-1);
           font-weight: 800;
           font-size: 1.5rem;
@@ -2105,10 +2134,10 @@ section {
         .source {
           position: absolute;
           display: flex;
-          top: 3rem;
+          top: 0.5rem;
           transform: translateY(-150%);
           visibility: hidden;
-          gap: 0.5rem;
+          gap: 2.8rem;
           color: var(--color--grey-1);
           font-weight: 800;
           font-size: 1.5rem;
@@ -2218,10 +2247,10 @@ section {
         .source {
           position: absolute;
           display: flex;
-          top: 3rem;
+          top: 2.8rem;
           transform: translateY(-150%);
           visibility: hidden;
-          gap: 0.5rem;
+          gap: 2.6rem;
           color: var(--color--grey-1);
           font-weight: 800;
           font-size: 1.5rem;
@@ -2276,6 +2305,21 @@ section {
   }
 }
 
+@media (min-width: 1169px)  {
+
+        .source {
+          position: absolute;
+          display: flex;
+          top: 2rem;
+          transform: translateY(-150%);
+          visibility: hidden;
+          gap: 3rem;
+          color: var(--color--grey-1);
+          font-weight: 800;
+          font-size: 1.5rem;
+        }
+} 
+
 @media (min-width: 1169px) and (max-width: 1500.9px) {
   .sec3 {
     min-height: 90vh;
@@ -2328,10 +2372,10 @@ section {
         .source {
           position: absolute;
           display: flex;
-          top: 3rem;
+          top: 2rem;
           transform: translateY(-150%);
           visibility: hidden;
-          gap: 0.5rem;
+          gap: 3rem;
           color: var(--color--grey-1);
           font-weight: 800;
           font-size: 1.5rem;
@@ -2945,6 +2989,7 @@ textarea {
           display: flex;
           gap: 0.3rem;
           width: 20px;
+          font-weight: 700;
           flex-wrap: wrap;
         }
       }
