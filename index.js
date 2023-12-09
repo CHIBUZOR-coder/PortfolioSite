@@ -45,6 +45,7 @@ else if(state === "active")
 {
  body.style.backgroundColor = "#101320";
   headertext.style.color = "white";
+    abouttext.style.color = "white";
   for (let i = 0; i < smalltext.length; i++) {
     smalltext[i].style.color = "#ADBECD";
   }
